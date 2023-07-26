@@ -1,0 +1,83 @@
+.bg {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+}
+.icon-container {
+  background-color: green;
+  height: 50vh;
+  width: 50vh;
+  border-radius: 8rem;
+}
+
+.icon {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 100px;
+}
+.bg-calcy {
+  background-color: #00c2cb;
+  height: 100vh;
+  background-size: cover;
+}
+.calcy-container {
+  background-color: black;
+  height: 85vh;
+  width: 50vh;
+  border-radius: 2rem;
+}
+.clear-icon {
+  color: orange;
+  font-weight: bold;
+}
+.symbols-icon {
+  color: green;
+  font-weight: bold;
+}
+.numbers {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.bg-symbol {
+  height: 50px;
+  width: 50px;
+  background-color: #333333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.equal-icon {
+  color: white;
+  font-weight: bold;
+}
+
+.bg-equal {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+.hr-icon {
+  border-color: #333333;
+  width: 100%;
+}
+
+.delete-left-icon {
+  font-weight: bold;
+  margin-right: 35px;
+  color: green;
+}
+
+.display-input {
+  margin-right: 35px;
+  outline: 0;
+  border-radius: 10px;
+  border: 0;
+  background: transparent;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  color: aliceblue;
+}
